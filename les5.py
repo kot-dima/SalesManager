@@ -63,7 +63,6 @@ def start(items):
             print("Read menu and check N !!!")
 
 
-
 def show_items(items):
     print(items)
 
@@ -72,7 +71,7 @@ def add_item(items):
     
     name = input("Enter name phone :")
     model = input("Enter model phone :")
-    price = input("Enter price phone :")
+    price = int(input("Enter price phone :"))
     item = {"name": name,
             "model": model,
             "price": price

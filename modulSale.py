@@ -42,5 +42,7 @@ phones = [
      "price": 9000
      },
 ]
-
-start(phones)
+try:
+    start(phones)
+except ValueError:
+    print("Введены некорректные данные in PRICE")
